@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>course_add</title>
+    <link rel="stylesheet" type="text/css" href="../css/student.css" />
+    <script type="application/javascript" src="../js/for_course_add.js"></script>
+</head>
+<body>
+    <form name="fm">
+        <table border="1">
+            <tr>
+                <td colspan="2">课程信息录入，<span class="star">*</span>为必须填写</td>
+            </tr>
+            <tr >
+                <td>名称</td>
+                <td id="mc">
+                    <input   type="text" placeholder="20位字符" required ><span class="star">*</span>
+                </td>
+            </tr>
+            <tr >
+                <td>性质</td>
+                <td id="xz">
+                    <select required>
+                        <option>公共基础必修课</option>
+                        <option>公共基础选修课</option>
+                    </select>
+                    <span class="star">*</span>
+                </td>
+            </tr>
+            <tr >
+                <td>学分</td>
+                <td id="xf">
+                    <input type="text" placeholder="数值"><span class="star">*</span>
+                </td>
+            </tr>
+            <tr >
+                <td>开设年级</td>
+                <td id="ksnj">
+                    <input type="text" placeholder="4位数年份" required><span class="star">*</span>
+                </td>
+            </tr>
+            <tr >
+                <td>开设专业</td>
+                <td id="kszy">
+                    <input type="radio"  checked>软件工程
+                    <input type="radio" >空间信息
+                    <span class="star">*</span>
+                </td>
+            </tr>
+            <tr >
+                <td>备注</td>
+                <td id="bz">
+                    <textarea maxlength="400" placeholder="200字以内" required></textarea>
+                    <span class="star">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="提交" onclick="check()">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
