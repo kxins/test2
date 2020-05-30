@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_web" />
-  </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_dao/pom.xml" />
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_domain/pom.xml" />
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_service/pom.xml" />
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_utils/pom.xml" />
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/gyl_web/pom.xml" />
-        <option value="$PROJECT_DIR$/../gyl-version1.0/gyl/pom.xml" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="9" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
